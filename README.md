@@ -6,5 +6,19 @@ Recently, neural network models have become prevalent in edge devices for divers
 
 As future work, we want to extend our hardware implementation from a single neuron engine to synapse and offer energy comparisons as well. 
 
+# Code
+ To reproduce the results, you can run the Python script. It has instructions.
+
 # Results
+summary of our results. The SNN execution time on software (the one on Intel Corei7) is highest, since it was produced through 30 timesteps, which is 30 runs of the network. Although the execution time is high, the error is the lowest. 
+
+
+On software the CNN is faster than BNN, since Intel's CPU architecture is not compatible with bit operations, so it cannot exploit the speedup opportunity that BNNs bring about. The reason that it is not even the same, but worse, is that time is pent to quantize and the quantize numbers for this network. 
+
+
+The two final results which are for the PYNQ board, the first one is when the light-weightedness of BNNs is exploited through hardware, and the second is when the BNN is run using the software, in a general purpose way. 
+
+
+![Image of results]
+(https://github.com/oriany/Power-Of-SNNs/pictures/res.png)
 
