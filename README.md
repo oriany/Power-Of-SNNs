@@ -20,5 +20,5 @@ The two final results which are for the PYNQ board, the first one is when the li
 
 
 ![Image of results]
-(https://github.com/oriany/Power-Of-SNNs/pictures/res.png)
+(https://github.com/oriany/Power-Of-SNNs/blob/master/pictures/res.png)
 
